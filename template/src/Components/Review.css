@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    background-color: #404040;
+    border-bottom: 1px solid #ccc;
+}
+
+.projectName{
+    font-size:40px;
+    color: #ffbd3f;
+}
+
+.keywords-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    gap: 20px;
+}
+
+.keyword-button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #ffbd3f;
+    cursor: pointer;
+    font-size: 25px;
+    width: 300px;
+    color: #000;
+    font-weight: bold;
+}
+
+.keyword-button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.search-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.search-container input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    width: 400px;
+}
+
+.search-container input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    background-color: #ffbd3f;
+    color: #000;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.search-container input[type="submit"]:hover {
+    background-color: #555;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    flex: 1;
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+.evaluation-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    width: 2000px;
+    height: 1000px;
+    gap: 20px;
+}
+
+.review {
+    flex: 1;
+    min-width: 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 24px;
+    overflow-y: auto;
+    margin-top: 50px;
+}
+
+.review-positiveheader {
+    font-size: 40px;
+    color: limegreen;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.review-negativeheader {
+    font-size: 40px;
+    color: crimson;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.chart-container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    margin-top: 350px;
+  }
+  
